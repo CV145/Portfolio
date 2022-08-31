@@ -1,13 +1,25 @@
 [
   {
     "Id": 1,
-    "Title": "Personal Porfolio",
+    "Title": "Porfolio Site",
     "Image": "project.png",
-    "Description": "A template to build your own personal portfolio website. Built in .NET Core and React.js",
+    "Description": "This website's foundation was forked from gkoutr/PersonalResume. Built in .NET Core and React.js",
     "HasWebLink": true,
     "WebUrl": "https://www.gkoutr.com",
     "HasGithubLink": true,
     "GithubUrl": "gkoutr/PersonalResume",
+    "HasDownloadLink": false,
+    "DownloadUrl": ""
+  },
+  {
+    "Id": 2,
+    "Title": "Robobomb",
+    "Image": "robobomb.png",
+    "Description": "An Android arcade game built in Unity C#.",
+    "HasWebLink": true,
+    "WebUrl": "https://play.google.com/store/apps/details?id=com.SevenHo.RobobombArcade",
+    "HasGithubLink": true,
+    "GithubUrl": "https://github.com/CV145/Robobomb",
     "HasDownloadLink": false,
     "DownloadUrl": ""
   }

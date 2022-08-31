@@ -1,22 +1,20 @@
 ﻿[
   {
     "Id": 1,
-    "CompanyName": "Test Company",
+    "CompanyName": "Staffmark",
     "Logo": "test-company-logo.jpg",
-    "JobTitle": "Software Engineer",
-    "StartDate": "Jan 2018",
-    "EndDate": "Present",
-    "Location": "Baltimore, MD",
+    "JobTitle": "Order Picker",
+    "StartDate": "July 2021",
+    "EndDate": "September 2021",
+    "Location": "Dallas, TX",
     "JobDuties": [
-      "Develop applications in C# (.NET), SQL Server and Angular JS",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "General warehouse work and order picking.",
+      "English-Spanish work environment."
     ]
   },
   {
     "Id": 2,
-    "CompanyName": "Test Company",
+    "CompanyName": "Tom Thumb",
     "Logo": "test-company-logo.jpg",
     "JobTitle": "QA Tester",
     "StartDate": "June 2017",

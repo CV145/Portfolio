@@ -13,11 +13,12 @@ export default class App extends Component {
   render () {
     return (
       <Layout>
-        <Route exact path='/' component={Jobs} />
-        <Route path='/jobs' component={Jobs} />
-        <Route path='/education' component={Education} />
+        <Route exact path='/' component={Projects} />
         <Route path='/projects' component={Projects} />
       </Layout>
     );
   }
 }
+
+//<Route path='/jobs' component={Jobs} />
+//<Route path='/education' component={Education} />
