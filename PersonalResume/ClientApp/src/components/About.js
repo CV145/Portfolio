@@ -1,6 +1,6 @@
 ﻿import React, { Component } from 'react';
 //Update the name for this logo.
-import logo from '../images/about/default-avatar.png';
+import logo from '../images/about/avatar.jpg';
 import {
     Row, Col, Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
@@ -54,19 +54,19 @@ export class About extends Component {
                             <h5>{this.state.name}</h5>
                             <p>{this.state.location}</p>
                         </div>
-                        <a style={{ color: "#007bb5" }} target="_blank" href="https://www.linkedin.com">
+                        <a style={{ color: "#007bb5" }} target="_blank" href="https://www.linkedin.com/in/carlos-valeriano-006506195/">
                             <span className="fa-stack fa-lg">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a style={{ color: "black" }} target="_blank" href="https://github.com/">
+                        <a style={{ color: "black" }} target="_blank" href="https://github.com/CV145">
                             <span className="fa-stack fa-lg">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-github fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
-                        <a style={{ color: "red" }} target="_blank" href="mailto:GeorgeK@gmail.com">
+                        <a style={{ color: "red" }} target="_blank" href="mailto:nesly4562@gmail.com">
                             <span className="fa-stack fa-lg">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fas fa-envelope fa-stack-1x fa-inverse"></i>
