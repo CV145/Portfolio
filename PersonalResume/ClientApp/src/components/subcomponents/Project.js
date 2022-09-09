@@ -1,4 +1,5 @@
 ﻿import React, { Component } from 'react';
+import Draggable from 'react-draggable';
 import {
     Row, Col, Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
@@ -30,6 +31,7 @@ function Project(props) {
 
     const project = props.project;
     return (
+        
         <Col md={4}>
             <Card className="project-card">
                 <CardImg top width="100%" className="project-image" src={require('../../images/projects/' + project.image)} alt="Card image cap" />
@@ -39,7 +41,7 @@ function Project(props) {
                     {getGithubLink(project)}
                     {getProjectLink(project)}
                 </CardBody>
-            </Card>
+                </Card>
         </Col>
     );
 }

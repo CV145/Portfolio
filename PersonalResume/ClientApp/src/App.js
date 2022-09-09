@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
+import Draggable from 'react-draggable'
 import { Layout } from './components/Layout';
 import { Jobs } from './components/Jobs';
 import { Education } from './components/Education';
